@@ -1,3 +1,4 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/Bi-S25fM)
 # Reverse Insertion Sort
 
 Consider the code for insertion sort we covered in class:
@@ -36,3 +37,7 @@ constant factors.
 Describe your reasoning and the conclusion you've come to. Your reasoning is
 most important -- you can easily find the answer, but you need to demonstrate
 that you've understood the concept. Add your answer to this markdown file.
+
+## Answer
+I believe that the average case time complexity of insertion sort is $\Theta(n^2)$. I believe this because we know from lectures that the time complexity of a for loop is just $\Theta(n)$ and so if we have a loop inside that it will make it so that for every $n$ element we have $n$ things to do. So when we put them together we get $n*n$ which can be simplified to $n^2$ which gives us our answer of $\Theta(n^2)$.
+
